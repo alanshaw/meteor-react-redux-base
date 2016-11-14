@@ -1,0 +1,24 @@
+{
+  "name": "medialist-app2",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "test": "npm run lint",
+    "lint": "standard",
+    "lint:fix": "standard --fix"
+  },
+  "dependencies": {
+    "meteor-node-stubs": "~0.2.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-helmet": "^3.1.0",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.8.1",
+    "react-router-redux": "^4.0.6",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.1.0"
+  },
+  "devDependencies": {
+    "standard": "^8.4.0"
+  }
+}
